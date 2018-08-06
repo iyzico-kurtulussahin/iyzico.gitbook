@@ -1,3 +1,9 @@
+---
+description: >-
+  Adobe firması tarafından geliştirilmesine devam edilen dünyaca ünlü eticaret
+  platformu
+---
+
 # Magento
 
 Magento, açık kaynaklı ve özgür bir e-ticaret web uygulamasıdır. İlk sürümü 31 Mart 2008 tarihinde duyurulan Magento, binlerce çözüm ortağı tarafından desteklenen ve dünya çapında 150.000'den fazla işletme tarafından kullanılan açık kaynak kodlu bir e-ticaret platformudur.

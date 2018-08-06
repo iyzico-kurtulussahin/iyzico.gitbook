@@ -1,3 +1,9 @@
+---
+description: >-
+  Bankalar gün sonu aldıktan sonra işlemin kısmi veya tam olarak iade
+  edilmesidir.
+---
+
 # İade
 
 iyzico üzerinden tahsil edilen bir ödeme, 365 gün 7/24 iade \(refund\) edilebilir. İade işlemi mutlaka ekstreye yansır ve iade edilen ödeme taksitli bir işlemse, iadenin karta yansıması bankadan bankaya değişmekle beraber birkaç günü bulabilir. İade işlemi kırılımdan çalışır, yani ödemenin bir kırılımının tamamını veya bir kısmını iade eder.

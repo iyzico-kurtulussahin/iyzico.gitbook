@@ -4,5 +4,3 @@ description: Kuruluşumuzdan bu yana en çok sorulan soruları bu sayfada listel
 
 # Sık Sorulan Sorular
 
-
-

@@ -1,3 +1,7 @@
+---
+description: SSL Güvenlik Protokolü
+---
+
 # SSL Nedir
 
 SSL ile internet tarayıcısına girilen bilgilerinin şifrelenerek transfer edilmesini _\(post edilmesini\)_ sağlayan güvenlik protokolüdür. Veri trafiği şifrelenir ve şifreli trafik başkaları tarafından izlenemez, kredi kartı ve diğer kişisel bilgiler trafik izlenerek okunamaz.

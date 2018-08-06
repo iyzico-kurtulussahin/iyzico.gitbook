@@ -1,3 +1,9 @@
+---
+description: >-
+  3d sürecinin, güvenlik onayından sonraki karttan para çekilme işlemininin
+  yapıldığı 2. adımıdır.
+---
+
 # 3d Tamamlama
 
 3ds tamamlama sorgusunda; istek parametreleri için, [callbackurl adresinize gönderilen parametr](https://iyzico.gitbook.io/tr/yazilim-bilgisi-gerekli/api/untitled/3d-baslatma#callbackurl-adresine-post-edilen-degerler)eleri kullanmalısınız. 

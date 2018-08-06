@@ -1,3 +1,9 @@
+---
+description: >-
+  T-Soft E-Ticaret Sistemleri - Tel: 0212 612 44 55 - Destek :
+  destek.tsoft.com.tr
+---
+
 # Tsoft
 
 iyzico entegrasyon sürecini sizler için daha anlaşılabilir ve kolay kılmak için bir entegrasyon rehberi hazırladık.

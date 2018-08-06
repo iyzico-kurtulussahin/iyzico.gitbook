@@ -1,3 +1,9 @@
+---
+description: >-
+  Bankadan 3ds şifresi girilecek ekran'ı çağırmak için kullanılır. 2. Adım olan 
+  "3d tamamlama" sorgusu yapılmadan karttan tutar çekilmez.
+---
+
 # 3d Başlatma
 
 ### 3ds Akışı

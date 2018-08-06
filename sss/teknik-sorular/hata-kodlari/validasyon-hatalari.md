@@ -1,3 +1,7 @@
+---
+description: 'iyzico API''ı tarafından, işlem bankaya gönderilmeden verilen hatalardır.'
+---
+
 # Validasyon Hataları
 
 ### 8 - identityNumber gönderilmesi zorunludur

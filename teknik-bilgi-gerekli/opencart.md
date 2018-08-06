@@ -1,3 +1,7 @@
+---
+description: 'Türkiye''de en çok tercih edilen açık kaynaklı, php tabanlı eticaret platformu'
+---
+
 # Opencart
 
 {% hint style="info" %}
