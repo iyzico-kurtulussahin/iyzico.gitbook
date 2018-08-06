@@ -148,9 +148,9 @@
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% hint style="info" %}
 Dönen cevap içerisindeki **checkoutFormContent** parametresi iyzico ödeme formunu oluşturmak için gerekli HTML kodunu içermektedir. **chekoutFormContent** parametresini bastırdığınız sayfada aşağıdaki "div" satırını eklediğiniz alanda ödeme formu oluşacaktır.
-
-### **Üye işyeri tarafından barındırılan entegrasyonlar için**
+{% endhint %}
 
 **Responsive kullanım**
 
@@ -159,16 +159,6 @@ Dönen cevap içerisindeki **checkoutFormContent** parametresi iyzico ödeme for
 **Pop-up kullanım**
 
 `<div id="iyzipay-checkout-form" class="popup"></div>`
-
-### **iyzico tarafından barındırılan entegrasyonlar için**
-
-**iframe kullanım**
-
-* paymentPageUrl parametresi ile dönen değere &iframe=true ifadesi eklenip kaynak olarak gösterilir.
-
-**ortak ödeme sayfası kullanım**
-
-* paymentPageUrl parametresi ile dönen değere yönlendirilir.
 
 ### **Örnek Kodlar**
 
