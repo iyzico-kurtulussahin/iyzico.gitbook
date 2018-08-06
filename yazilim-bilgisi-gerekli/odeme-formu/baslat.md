@@ -152,11 +152,11 @@
 Dönen cevap içerisindeki **checkoutFormContent** parametresi iyzico ödeme formunu oluşturmak için gerekli HTML kodunu içermektedir. **chekoutFormContent** parametresini bastırdığınız sayfada aşağıdaki "div" satırını eklediğiniz alanda ödeme formu oluşacaktır.
 {% endhint %}
 
-**Responsive kullanım**
+### **Responsive kullanım**
 
 `<div id="iyzipay-checkout-form" class="responsive"></div>`
 
-**Pop-up kullanım**
+### **Pop-up kullanım**
 
 `<div id="iyzipay-checkout-form" class="popup"></div>`
 
