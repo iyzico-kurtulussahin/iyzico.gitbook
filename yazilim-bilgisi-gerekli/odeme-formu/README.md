@@ -27,7 +27,7 @@ iyzico'ya yapılan sorgu ile ödeme formu scripti alınarak, iyzico ödeme formu
 
 {% page-ref page="baslat.md" %}
 
-### **Ödeme Formu Sonuç Öğrenme**
+### **2 - Ödeme Formu Sonuç Öğrenme**
 
 Kart sahibi ödeme formu üzerinde ödemesini tamamladıktan sonra, otomatik olarak sonuç sayfasına yönlenir. Bu aşama iyzico tarafından sonuç sayfasına iletilen **"token"** ile ikinci bir sorgu yapılarak ödeme sonucu hakkında ayrıntılı bilgi alınır. Bu servis ile ilgili detaylı bilgiyi aşağıdaki linkten ulaşabileceğiniz ödeme formu sonucu sayfasından edinebilirsiniz.
 
