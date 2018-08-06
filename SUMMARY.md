@@ -20,6 +20,7 @@
   * [Ödeme Formu](yazilim-bilgisi-gerekli/odeme-formu/README.md)
     * [Başlat](yazilim-bilgisi-gerekli/odeme-formu/baslat.md)
     * [Sonuç](yazilim-bilgisi-gerekli/odeme-formu/sonuc.md)
+    * [Tek Başlık](yazilim-bilgisi-gerekli/odeme-formu/tek-baslik.md)
   * [Payment API](yazilim-bilgisi-gerekli/api/README.md)
     * [Taksit ve Bin Sorgulama](yazilim-bilgisi-gerekli/api/taksit-ve-bin-sorgulama.md)
     * [Ödeme](yazilim-bilgisi-gerekli/api/odeme.md)
