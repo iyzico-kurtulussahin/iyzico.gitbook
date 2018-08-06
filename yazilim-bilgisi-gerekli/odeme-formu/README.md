@@ -9,7 +9,9 @@ description: >-
 
 {% embed data="{\"url\":\"https://youtu.be/UzQkrztEMgs\",\"type\":\"video\",\"title\":\"iyzico - Ödeme Formu Entegrasyon Örneği\",\"description\":\"iyzico Ödeme Formu entegrasyonu için hazırladığımız demo çalışmasında iyzipay PHP clientı kullanılarak bir örnek yapılmıştır. iyzico Ödeme Formu entegrasyonu ile hızlı ve kolay bir şekilde ödeme almaya başlayabilirsiniz!\\n\\nSorularınızla ilgili Entegrasyon ekibimize entegrasyon@iyzico.com adresinden ulaşabilirsiniz.\\n\\nhttps://www.iyzico.com/\\nhttps://dev.iyzipay.com/tr\\n\\n\\nBizi takip edin!\\n\\nTwitter: https://twitter.com/iyzico\_com\\nFacebook: https://www.facebook.com/iyzico/\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/UzQkrztEMgs/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/UzQkrztEMgs?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/UzQkrztEMgs?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778},\"caption\":\"iyzico Ödeme Formu Entegrasyon Örneği\"}" %}
 
-\*\*\*\*
+{% hint style="info" %}
+Form Oluşturma sorgusunu kütüphanelerimizde yer alan sample klasörü içerisinde bulabilirsiniz. Composer, Nuget, Maven, pip, gem, npm üzerinden iyzipay yazıp projelerinize dahil edebileceğiniz gibi [github iyzico hesabı](https://github.com/iyzico) üzerinden bilgisayarınıza kaynak kodları indirebilirsiniz.
+{% endhint %}
 
 ### **Ödeme Formu Başlatma**
 
