@@ -1,9 +1,3 @@
----
-description: >-
-  Natro akıllı eticaret paketi​ - Tel : 0 (212) 213 1 213 - Mail :
-  destek@natro.com
----
-
 # Natro
 
 iyzico “Anında Sanal Pos” kurulumu sayesinde hiç beklemeden online satışa başlayabilir, 7 farklı kredi kartı ailesi ile taksitli ödeme alabilirsiniz.

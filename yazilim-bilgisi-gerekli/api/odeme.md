@@ -1,10 +1,3 @@
----
-description: >-
-  Tek çekim, taksitli, tek tıkla ödeme ve abonelik işlemleri için
-  kullanılabilir. İşleme gönderilen kartın bakiyesinden ilgili miktarı çekme
-  işlemi yapılır.
----
-
 # Ödeme
 
 {% embed data="{\"url\":\"https://github.com/iyzico/iyzipay-php/blob/master/samples/create\_payment.php\#L1\",\"type\":\"link\",\"title\":\"iyzico/iyzipay-php\",\"description\":\"iyzipay-php - iyzipay api php client\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/3815564?s=400&v=4\",\"width\":200,\"height\":200,\"aspectRatio\":1},\"caption\":\"Ödeme sorgusu Php örneği\"}" %}

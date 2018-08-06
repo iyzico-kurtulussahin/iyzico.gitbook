@@ -1,7 +1,3 @@
----
-description: 05 (genel red) ve 12 (Geçersiz işlem)
----
-
 # Genel Red ve Geçersiz İşlem
 
 ### Genel Red \(Do Not Honour\) ve Geçersiz işlem \(Invalid Transaction\)

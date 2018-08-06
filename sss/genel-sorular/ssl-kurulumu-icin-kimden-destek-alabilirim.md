@@ -1,7 +1,3 @@
----
-description: SSL Kurulumu İçin Kimden Destek Alabilirim?
----
-
 # SSL Kurulumu
 
 SSL kurulumuna dair daha önce bir tecrübeniz yok ise;  

@@ -1,7 +1,3 @@
----
-description: Etsy entegrasyon rehberi
----
-
 # Etsy
 
 ### Etsy Kurulumu

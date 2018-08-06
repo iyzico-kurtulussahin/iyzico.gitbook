@@ -1,7 +1,3 @@
----
-description: Türkiyenin en çok tercih edilen eticaret altyapıları
----
-
 # Diğerleri
 
 ![](https://dev.iyzipay.com/user/pages/08.hazir-altyapi/natro.png)
