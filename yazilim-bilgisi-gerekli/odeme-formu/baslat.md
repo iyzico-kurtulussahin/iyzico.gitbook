@@ -84,7 +84,7 @@
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Ödeme Formu Başlat
+Ödeme Formu Başlatma
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -93,32 +93,6 @@
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="locale" type="string" required=false %}
-iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="conversationId" type="string" required=false %}
-İstek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/response eşleşmesi yapmak için kullanılabilir.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -126,9 +100,49 @@ iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Va
 
 {% endapi-method-response-example-description %}
 
+{% code-tabs %}
+{% code-tabs-item title="success" %}
 ```
+{
+   "status":"success",
+   "locale":"tr",
+   "systemTime":1527751105721,
+   "conversationId":"123456789",
+   "token":"9fe38304-6174-4900-9c2b-278ce1b0f4dd",
+   "checkoutFormContent":"<script type=\"text/javascript\">if (typeof iyziInit == 'undefined') {var iyziInit = {currency:\"TRY\",token:\"9fe38304-6174-4900-9c2b-278ce1b0f4dd\",price:1.20,locale:\"tr\",baseUrl:\"https://sandbox-api.iyzipay.com\",registerCardEnabled:true,bkmEnabled:true,userCards:[],force3Ds:false,isSandbox:true,storeNewCardEnabled:true,paymentWithNewCardEnabled:true,enabledApmTypes:[],buyerProtectionEnabled:false,hide3DS:false,gsmNumber:\"+905350000000\",email:\"email@email.com\",checkConsumerDetail:{\"checkConsumerResult\":{\"consumerExists\":false}},metadata : {},createTag:function(){var iyziCSSTag = document.createElement('link');iyziCSSTag.setAttribute('rel','stylesheet');iyziCSSTag.setAttribute('type','text/css');iyziCSSTag.setAttribute('href','https://sandbox-static.iyzipay.com/checkoutform/css/main.min.css?v=1527751105721');document.head.appendChild(iyziCSSTag);var iyziJSTag = document.createElement('script');iyziJSTag.setAttribute('src','https://sandbox-static.iyzipay.com/checkoutform/js/iyziCheckout.min.js?v=1527751105721');document.head.appendChild(iyziJSTag);}};iyziInit.createTag();}</script>",
+   "tokenExpireTime":1800,
+   "paymentPageUrl":"https://sandbox-cpp.iyzipay.com?token=9fe38304-6174-4900-9c2b-278ce1b0f4dd&lang=tr"
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="errorCode:5062" %}
+```
+{
+    "status": "failure",
+    "errorCode": "5062",
+    "errorMessage": "Gönderilen tutar tüm kırılımların toplam tutarına eşit olmalıdır",
+    "locale": "tr",
+    "systemTime": 1533542692187,
+    "conversationId": "123456789"
+}
 
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="errorCode:5004" %}
+```
+{
+    "status": "failure",
+    "errorCode": "5004",
+    "errorMessage": "price gönderilmesi zorunludur",
+    "locale": "tr",
+    "systemTime": 1533542749492,
+    "conversationId": "123456789"
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
