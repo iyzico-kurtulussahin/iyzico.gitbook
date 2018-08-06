@@ -2,7 +2,7 @@
 description: Yapım aşamasında
 ---
 
-# Changelog
+# Parametre Sözlüğü
 
 Sorularınız için entegrasyon@iyzico.com adresine mail atarak destek talep edebilirsiniz.
 

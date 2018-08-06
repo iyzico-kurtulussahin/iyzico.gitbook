@@ -49,4 +49,5 @@
         * [Banka Hataları Sözlüğü](sss/teknik-sorular/hata-kodlari/banka-hatalari/ek-aciklamalar/README.md)
           * [Genel Red ve Geçersiz İşlem](sss/teknik-sorular/hata-kodlari/banka-hatalari/ek-aciklamalar/genel-red-ve-gecersiz-islem.md)
     * [Changelog](sss/teknik-sorular/changelog.md)
+    * [Parametre Sözlüğü](sss/teknik-sorular/parametre-soezluegue.md)
 
