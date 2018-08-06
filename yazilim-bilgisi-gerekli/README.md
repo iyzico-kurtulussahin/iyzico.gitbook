@@ -6,6 +6,8 @@ description: >-
 
 # Yazılım bilgisi gerekli
 
+iyzico ödeme API’si, internet üzerinden ödeme kabul eden tüm üye işyerlerine ihtiyacına cevap verecek şekilde, oturum bilgisi tutmayan \(stateless\) Restful servis odaklı bir mimaride geliştirilmiştir. iyzico'nun sunduğu sunucu taraflı programlama diline uygun istemciler \(client\) ile çok kolay entegre olunabilir. Başlamak için aşağıdaki adımları izleyebilirsiniz.
+
 ### **iyzico github Sayfası**
 
 {% page-ref page="../sss/teknik-sorular/github.com-iyzico.md" %}
