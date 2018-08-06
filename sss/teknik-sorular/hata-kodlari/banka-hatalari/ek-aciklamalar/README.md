@@ -1,0 +1,2 @@
+# Banka Hataları Sözlüğü
+
