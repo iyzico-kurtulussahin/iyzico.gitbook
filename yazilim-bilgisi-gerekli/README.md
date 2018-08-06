@@ -6,15 +6,9 @@ description: >-
 
 # Yazılım bilgisi gerekli
 
-### **İstemci\(client\) seçimi**
+### **iyzico github Sayfası**
 
-{% hint style="info" %}
-Kütüphanelerimize ve kod örneklerimize [github iyzico hesabı](https://github.com/iyzico) üzerinden ulaşabilirsiniz.
-
-Ek olarak Composer, Nuget, Maven, pip, gem, npm üzerinden iyzipay yazıp projelerinize dahil edebilirsiniz
-{% endhint %}
-
-{% embed data="{\"url\":\"https://github.com/iyzico\",\"type\":\"link\",\"title\":\"iyzico\",\"description\":\"Easiest and Fastest Way of Accepting Payments\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/3815564?s=280&v=4\",\"width\":200,\"height\":200,\"aspectRatio\":1}}" %}
+{% page-ref page="../sss/teknik-sorular/github.com-iyzico.md" %}
 
 ### Sandbox \(Test\) Ortamı
 
