@@ -32,8 +32,10 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
+
+
 {% api-method-parameter name="locale" type="string" required=false %}
-iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
+xiyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="conversationId" type="string" required=false %}
@@ -43,6 +45,9 @@ istek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/respons
 {% api-method-parameter name="token" type="string" required=true %}
 Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır.
 {% endapi-method-parameter %}
+
+
+
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
