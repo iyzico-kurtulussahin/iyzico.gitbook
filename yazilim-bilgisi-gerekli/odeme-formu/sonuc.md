@@ -40,7 +40,7 @@ iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Va
 istek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/response eşleşmesi yapmak için kullanılabilir. 
 {% endapi-method-parameter %}
 {% api-method-parameter name="token" type="string" required=false %}
-Checkout form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır.
+...Checkout form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır.
 {% endapi-method-parameter %}
 
 {% endapi-method-body-parameters %}
