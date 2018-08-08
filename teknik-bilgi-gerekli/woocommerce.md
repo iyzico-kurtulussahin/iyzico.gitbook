@@ -12,7 +12,7 @@ iyzico woocommerce modülü, yalın woocommerce \(eklentisiz\) kurulumu üzerind
 
 Ekibimiz tarafından geliştirilen ve [github.com/iyzico/iyzipay-woocommerce](http://github.com/iyzico/iyzipay-woocommerce) sayfasında bulunan iyzico-woocommerce modülünü, wordpress mağazasından indirmek ve kullanmaya başlamak tamamen ücretsiz.
 
-**Woocommerce modülünü nasıl entegre edeceğim?**
+### **Woocommerce modülünü nasıl entegre edeceğim?**
 
 Aşağıdaki entegrasyon adımlarını takip ederek veya iyzico woocommerce videomuzu izleyerek woocommerce entegrasyonunu gerçekleştirebilirsiniz.
 

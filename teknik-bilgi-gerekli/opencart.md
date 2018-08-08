@@ -34,3 +34,7 @@ Aşağıdaki entegrasyon adımlarını takip ederek veya iyzico opencart videomu
 Kurulumu bitirdikten sonra mutlaka en az 1 tane gerçek kredi kartınızla cüzi tutarlı bir ödeme yapmanızı öneririz. Bu deneme işlemini iyzico panelinizden anında iptal edebilirsiniz. Başarılı bir test işleminin ardından başvuru durumunuzu “Entegrasyon aşamasından ” “Canlı ” moda güncelliyor olacağız.
 {% endhint %}
 
+### Demo kurulum
+
+[Buradan](https://www.iyziodeme.com/test/opencart/3.0.2.0/upload) demo opencart kurulumumuzu inceleyebilirsiniz.
+
