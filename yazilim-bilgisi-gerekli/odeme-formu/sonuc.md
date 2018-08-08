@@ -6,13 +6,13 @@ description: Yapılan ödemenin sonucunu öğrenme sorgusu
 
 {% embed data="{\"url\":\"https://github.com/iyzico/iyzipay-php/blob/master/samples/retrieve\_checkout\_form\_result.php\#L1\",\"type\":\"link\",\"title\":\"iyzico/iyzipay-php\",\"description\":\"iyzipay-php - iyzipay api php client\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/3815564?s=400&v=4\",\"width\":200,\"height\":200,\"aspectRatio\":1},\"caption\":\"Ödeme formu sonucu sorgusu için Php örneği\"}" %}
 
-iyzico, ödeme formuna kart bilgileri girilip "X TL Öde" butonuna basıldıktan sonra; ödeme formunu oluştururken belirlenen callbackUrl adresine yönlenir ve bu adrese bir **token** değeri post edilir.
+iyzico, ödeme formuna kart bilgileri girilip "X TL Öde" butonuna basıldıktan sonra; ödeme formunu oluştururken belirlenen callbackUrl adresine yönlenir ve bu adrese bir **token** değeri post edilir. 
 
-Bu **token** değeri ile ikinci bir sorgu yapılması gerekmektedir. Yapılacak olan ikinci sorgu ile, işlem sonucuna dair ayrıntılar alınmaktadır.
+Bu **token** değeri ile ikinci bir sorgu yapılması gerekmektedir. Yapılacak olan ikinci sorgu ile, işlem sonucuna dair ayrıntılar alınmaktadır. 
 
 Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz anda ya da callbackUrl adresinize iyzico tarafından post edildiğinde alabilirsiniz.
 
-## Parametreler
+### Parametreler
 
 | **Parametre ismi** | **Açıklama** |
 | :--- | :--- |
@@ -32,22 +32,17 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-
-
 {% api-method-parameter name="locale" type="string" required=false %}
-xiyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
+iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="conversationId" type="string" required=false %}
-istek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/response eşleşmesi yapmak için kullanılabilir.
+İstek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/response eşleşmesi yapmak için kullanılabilir.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="token" type="string" required=true %}
-Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır.
+Checkout form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır.
 {% endapi-method-parameter %}
-
-
-
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
@@ -59,7 +54,7 @@ Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir 
 
 {% code-tabs %}
 {% code-tabs-item title="success" %}
-```text
+```
 {  
    "status":"success",
    "locale":"tr",
@@ -124,11 +119,12 @@ Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir 
    "callbackUrl":"https://www.merchant.com/callback",
    "paymentStatus":"SUCCESS"
 }
+
 ```
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="errorCode:5124" %}
-```text
+```
 {
     "status": "failure",
     "errorCode": "5124",
@@ -137,11 +133,12 @@ Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir 
     "systemTime": 1533548614141,
     "conversationId": "123456789"
 }
+
 ```
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="errorCode:5132" %}
-```text
+```
 {
     "status": "failure",
     "errorCode": "5132",
@@ -158,7 +155,7 @@ Checkoutx form için oluşturulan tekil değer. Her istek için özel üretilir 
 {% endapi-method-spec %}
 {% endapi-method %}
 
-## **Örnek Kodlar**
+### **Örnek Kodlar**
 
 * [Php](https://github.com/iyzico/iyzipay-php/blob/master/samples/retrieve_checkout_form_result.php#L1)
 * [.Net](https://github.com/iyzico/iyzipay-dotnet/blob/master/Iyzipay.Samples/CheckoutFormSample.cs#L107)

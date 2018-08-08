@@ -1,4 +1,2 @@
 # Anında Sanal Pos
 
-
-

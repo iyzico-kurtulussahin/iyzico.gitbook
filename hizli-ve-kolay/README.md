@@ -6,5 +6,3 @@ description: >-
 
 # Hızlı ve Kolay
 
-
-

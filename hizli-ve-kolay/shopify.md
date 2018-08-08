@@ -1,3 +1,7 @@
+---
+description: Dünyanın en çok kullanılan eticaret platformu - shopify.com
+---
+
 # Shopify
 
 iyzico entegrasyon sürecini sizler için daha anlaşılabilir ve kolay kılmak için bir entegrasyon rehberi hazırladık.

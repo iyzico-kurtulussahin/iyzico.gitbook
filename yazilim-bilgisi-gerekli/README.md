@@ -1,7 +1,7 @@
 ---
 description: >-
-  Bu kategoride yazılım bilgisi gerektiren iyzico'nun ödeme formu entegrasyonunu
-  bulabilirsiniz. Profesyonel bir yazılımcıdan destek almayı unutmayın.
+  iyzico'nun ödeme formunu veya API'sini entegre etmek için gerekli kodlara
+  buradan ulaşabilirsiniz.
 ---
 
 # Yazılım bilgisi gerekli

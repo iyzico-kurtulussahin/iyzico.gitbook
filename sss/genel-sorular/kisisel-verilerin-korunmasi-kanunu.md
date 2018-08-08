@@ -1,3 +1,7 @@
+---
+description: Kişisel Verilerin Korunması Kanunu ile alakalı yapmam gerekenler nedir ?
+---
+
 # Kişisel Verilerin Korunması Kanunu
 
 Site sahibi internet sitesine üye olacak son kullanıcıların onaylayacakları Kullanıcı Sözleşmesine aşağıdaki cümleyi bir madde olarak eklemelidir

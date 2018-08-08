@@ -1,3 +1,9 @@
+---
+description: >-
+  Kullanıcıdan alınan sipariş bilgileri ile sorgu yapılarak, ödeme formu scripti
+  çağrılır.
+---
+
 # Başlat
 
 {% embed data="{\"url\":\"https://github.com/iyzico/iyzipay-php/blob/master/samples/initialize\_checkout\_form.php\#L1\",\"type\":\"link\",\"title\":\"iyzico/iyzipay-php\",\"description\":\"iyzipay-php - iyzipay api php client\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/3815564?s=400&v=4\",\"width\":200,\"height\":200,\"aspectRatio\":1},\"caption\":\"Ödeme formu başlatma sorgusu için Php örneği \"}" %}

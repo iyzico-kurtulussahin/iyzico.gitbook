@@ -6,5 +6,3 @@ description: >-
 
 # Teknik bilgi gerekli
 
-
-

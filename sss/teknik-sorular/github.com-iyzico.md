@@ -1,3 +1,7 @@
+---
+description: iyzico github hesabı
+---
+
 # github.com/iyzico
 
 iyzico entegrasyon için, sunucu taraflı programlama diline uygun 6 farklı istemci\(client\) sunar. Bu istemcilerden programlama yapmak istediğiniz dile uygun olanı seçip sandbox\(test\) bilgileri ile kullanmaya başlayabilirsiniz.

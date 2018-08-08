@@ -1,3 +1,9 @@
+---
+description: >-
+  https://iyzi.link - iyziLink ile web siteniz olmadan hızlı ve kolayca ödeme
+  alın
+---
+
 # iyziLink
 
 ### iyziLink Hesap Oluşturma
