@@ -1,7 +1,3 @@
----
-description: 3d başlatma ve 3d tamamlama olarak iki adet sorgu kullanılır.
----
-
 # 3d Ödeme
 
 Kendi ödeme formunuzu kullanıyor iseniz, 3ds entegrasyonu aşağıdaki 2 sorgudan oluşmaktadır. 

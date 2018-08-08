@@ -1,9 +1,3 @@
----
-description: >-
-  Wordpress için geliştirilen özelleştirilebilen açık kaynaklı eticaret
-  platformu
----
-
 # Woocommerce
 
 {% hint style="info" %}

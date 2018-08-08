@@ -1,9 +1,3 @@
----
-description: >-
-  ideasoft Akıllı E-ticaret Paketleri  -  Tel : 0216 326 04 77 - Mail :
-  destek@ideasoft.com.tr
----
-
 # Ideasoft
 
 iyzico entegrasyon sürecini sizler için daha anlaşılabilir ve kolay kılmak için bir entegrasyon rehberi hazırladık.

@@ -1,7 +1,3 @@
----
-description: Gelişmiş fonksiyonları ve topluluğu bulunan açık kaynaklı eticaret platformu
----
-
 # Prestashop
 
 {% hint style="info" %}

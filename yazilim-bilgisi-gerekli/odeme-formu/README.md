@@ -1,10 +1,3 @@
----
-description: >-
-  iyzico'nun ödeme formu teknolojisini 2 basit sorgu ile entegre edebilirsiniz.
-  Sizler için 1 adet entegrasyon videosu hazırladık ve popüler olan PHP dilini
-  kullandık.
----
-
 # Ödeme Formu
 
 {% hint style="info" %}

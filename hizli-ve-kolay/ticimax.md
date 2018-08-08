@@ -1,9 +1,3 @@
----
-description: >-
-  Ticimax gelişmiş eticaret pakeri - Tel : 0850 811 08 20 - Mail :
-  info@ticimax.com
----
-
 # Ticimax
 
 iyzico entegrasyon sürecini sizler için daha anlaşılabilir ve kolay kılmak için bir entegrasyon rehberi hazırladık.

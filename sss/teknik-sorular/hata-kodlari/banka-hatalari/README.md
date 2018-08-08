@@ -1,7 +1,3 @@
----
-description: 'İşlem posa iletildikten sonra, banka tarafından dönen hatalardır.'
----
-
 # Banka Hataları
 
 iyzico ödeme API'sinde bankadan dönen hata mesajları 10bin ile başlar. En çok alınan hata koldarının başına 10bin eklenerek yanıt olarak anında döner. Örnek "10005". 10 bin’den küçük hata kodları ise API'den dönen validasyon ya da business hata kodları olarak adlandırılır.
