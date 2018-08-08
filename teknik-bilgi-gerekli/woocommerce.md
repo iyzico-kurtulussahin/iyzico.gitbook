@@ -29,7 +29,7 @@ Aşağıdaki entegrasyon adımlarını takip ederek veya iyzico woocommerce vide
 9. Sıralama için ise ödeme seçenekleri arasında hangi sırada görülmesini istiyorsanız o sıra numarasını girin
 10. Kaydet butonuna bastıktan sonra iyzico'yu kullanmaya başlayabilirsiniz.
 
-### Demo Kurulum
+### Demo kurulum
 
 [Buradan](https://www.iyziodeme.com/test/woocommerce) demo woocommerce kurulumuzu inceleyebilirsiniz.
 
