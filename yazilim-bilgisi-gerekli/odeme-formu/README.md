@@ -15,19 +15,17 @@ iyzico ödeme formu ile ödeme almak iki adımdan oluşmaktadır.
 2- Yapılan ödemenin sonucunu öğrenme sorgusu
 {% endhint %}
 
+### **1 - Ödeme Formu Başlatma**
+
+iyzico'ya yapılan sorgu ile ödeme formu scripti alınarak, iyzico ödeme formu müşteriye gösterilir. Bu servis ile ilgili detaylı bilgiyi aşağıdaki linkten ulaşabileceğiniz ödeme formu başlatma sayfasından edinebilirsiniz.
+
 {% page-ref page="baslat.md" %}
 
+### **2 - Ödeme Formu Sonuç Öğrenme**
+
+Kart sahibi ödeme formu üzerinde ödemesini tamamladıktan sonra, otomatik olarak sonuç sayfasına yönlenir. Bu aşama iyzico tarafından sonuç sayfasına iletilen **"token"** ile ikinci bir sorgu yapılarak ödeme sonucu hakkında ayrıntılı bilgi alınır. Bu servis ile ilgili detaylı bilgiyi aşağıdaki linkten ulaşabileceğiniz ödeme formu sonucu sayfasından edinebilirsiniz.
+
 {% page-ref page="sonuc.md" %}
-
-{% hint style="info" %}
-**1 - Ödeme Formu Başlatma**
-
-iyzico'ya yapılan sorgu ile ödeme formu scripti alınarak, iyzico ödeme formu müşteriye gösterilir. 
-
-**2 - Ödeme Formu Sonuç Öğrenme**
-
-Kart sahibi ödeme formu üzerinde ödemesini tamamladıktan sonra, otomatik olarak sonuç sayfasına yönlenir. Bu aşama iyzico tarafından sonuç sayfasına iletilen **"token"** ile ikinci bir sorgu yapılarak ödeme sonucu hakkında ayrıntılı bilgi alınır. 
-{% endhint %}
 
 ### Ödeme Formu Entegrasyon Örneği
 
