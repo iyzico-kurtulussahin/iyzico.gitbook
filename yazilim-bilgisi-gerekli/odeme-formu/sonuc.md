@@ -33,7 +33,7 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 {% api-method-request %}
 {% api-method-body-parameters %}
 {% api-method-parameter name="locale" type="string" required=false %}
-iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
+iyzico isteği sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="conversationId" type="string" required=false %}
