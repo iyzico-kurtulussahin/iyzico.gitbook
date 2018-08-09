@@ -1,26 +1,24 @@
 ---
-description: >-
-  Natro akıllı eticaret paketi​ - Tel : 0 (212) 213 1 213 - Mail :
-  destek@natro.com
+description: İdeasoft altyapısı üzerinden iyzico anında sanal pos başvurusu
 ---
 
-# Natro
+# İdeasoft
 
 iyzico “Anında Sanal Pos” kurulumu sayesinde hiç beklemeden online satışa başlayabilir, 7 farklı kredi kartı ailesi ile taksitli ödeme alabilirsiniz.
 
-### Natro E-Ticaret Hosting - iyzico Anında Sanal Pos Uygulaması
+### ideasoft - iyzico Anında Sanal Pos Uygulaması
 
-Natro E-ticaret Hosting paketinizin yönetim kısmında, _**“iyzico Api Anahtarı”**_ bölümündeki _**“API Anahtarı Oluşturmak İçin Tıklayın”**_ linkine tıklayarak iyzico’ya anında sanal pos kurulumunu yapabilirsiniz.
+Ideasoft yönetici panelinizde, Ayarlar-&gt;ÖdemeAyarları-&gt;iyzico Ayarları, kısmından “Hemen Aktifleştir” butonuna tıklayarak _**“iyzico Anında Sanal Pos”**_ kurulumu başlatabilirsiniz.
 
-![](../../.gitbook/assets/natro1.png)
+![](../../.gitbook/assets/picture1.png)
 
-Kurulumu başlattıktan sonra açılan formu doldurup kaydet butonuna basin. 
+Kurulumu başlattıktan sonra açılan formu doldurup Başvuruyu Tamamla butonuna basin. 
 
 {% hint style="warning" %}
 E-mail adresinizin doğru olduğunu kontrol etmeyi unutmayın. iyzico ekibi bundan sonraki süreçte sizinle burada girdiğiniz email adresiniz üzerinden iletişime geçecektir.
 {% endhint %}
 
-![](../../.gitbook/assets/natro2.png)
+![](../../.gitbook/assets/picture2.png)
 
 {% hint style="success" %}
 Bu kadar kolay, **iyzico Anında Sanal Pos** ile artık **siteniz ödeme almak için hazır**. 
@@ -39,6 +37,14 @@ Gün içerisinde başvurunuz websiteniz ve şirket bilgilerinizi kontrol ederek 
 {% hint style="warning" %}
 Bizden, bilgi ve belgeler konusunda onay almadan şatışını gerçekleştirdiğiniz ürünleri kargolamamanızı rica ederiz.
 {% endhint %}
+
+### Ek Düzenlemeler
+
+iyzico Ayarları bölümünde sağ taraftaki kart markalarının \(ör: Maksimum Kart\) düzenleme butonuna tıklayın. Ardından “Pos Oranlarını Doldur” butonuna tıklayıp kaydedin. 
+
+Bu işlem, ürünlerinizin açıklamasında bulunan taksit seçenleri kısmı için gereklidir. Iyzico’da 2-3-6-9 ve 12 taksit seçenekleri bulunmaktadır. “Pos Oranlarını Doldur” butonuna tıkladığınızda bu taksitlerden hesabınızda aktif olanlar otamatik olarak yüklenecektir.
+
+![](../../.gitbook/assets/picture3.png)
 
 ### Entegrasyon Testleri
 

@@ -1,26 +1,24 @@
 ---
-description: >-
-  Natro akıllı eticaret paketi​ - Tel : 0 (212) 213 1 213 - Mail :
-  destek@natro.com
+description: Tsoft altyapısı üzerinden iyzico anında sanal pos başvurusu
 ---
 
-# Natro
+# Tsoft
 
 iyzico “Anında Sanal Pos” kurulumu sayesinde hiç beklemeden online satışa başlayabilir, 7 farklı kredi kartı ailesi ile taksitli ödeme alabilirsiniz.
 
-### Natro E-Ticaret Hosting - iyzico Anında Sanal Pos Uygulaması
+### Tsoft - iyzico Anında Sanal Pos Uygulaması
 
-Natro E-ticaret Hosting paketinizin yönetim kısmında, _**“iyzico Api Anahtarı”**_ bölümündeki _**“API Anahtarı Oluşturmak İçin Tıklayın”**_ linkine tıklayarak iyzico’ya anında sanal pos kurulumunu yapabilirsiniz.
+Tsoft yönetici panelinizde, Bölümler-&gt;Uygulama Marketi kısmından, uygulama marketinize ulaşabilirsiniz. _**“iyzico Anında Sanal Pos”**_ uygulamasına tıklayarak kurulumu başlatabilirsiniz.
 
-![](../../.gitbook/assets/natro1.png)
+![](../../.gitbook/assets/picture1%20%283%29.png)
 
-Kurulumu başlattıktan sonra açılan formu doldurup kaydet butonuna basin. 
+Kurulumu Başlattıktan sonra açılan “Seçenekler” bölümünü doldurup tamam butonuna basin. 
 
 {% hint style="warning" %}
 E-mail adresinizin doğru olduğunu kontrol etmeyi unutmayın. iyzico ekibi bundan sonraki süreçte sizinle burada girdiğiniz email adresiniz üzerinden iletişime geçecektir.
 {% endhint %}
 
-![](../../.gitbook/assets/natro2.png)
+![](../../.gitbook/assets/picture2%20%281%29.png)
 
 {% hint style="success" %}
 Bu kadar kolay, **iyzico Anında Sanal Pos** ile artık **siteniz ödeme almak için hazır**. 
@@ -39,6 +37,12 @@ Gün içerisinde başvurunuz websiteniz ve şirket bilgilerinizi kontrol ederek 
 {% hint style="warning" %}
 Bizden, bilgi ve belgeler konusunda onay almadan şatışını gerçekleştirdiğiniz ürünleri kargolamamanızı rica ederiz.
 {% endhint %}
+
+### Ek Düzenlemeler
+
+Ödeme Seçenekleri sayfasında iyzico yazısının üzerine çift tıklayarak dilerseniz, ödeme sayfanızda görünecek ismi “Kredi Kartı” olarak değiştirebilir, ek olarak ödeme sayfanızdaki sıralamasını da “sıra no” kısmından değiştirebilirsiniz.
+
+![](../../.gitbook/assets/picture3%20%282%29.png)
 
 ### Entegrasyon Testleri
 

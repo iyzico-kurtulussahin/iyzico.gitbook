@@ -30,19 +30,19 @@ Yukarıdaki linke tıklayarak, shopify siteniz için iyzico ödeme sistemini akt
 
 Linke tıklayıp, shopify panelinize girdiğinizde, “install payment provider” butonuna tıklayarak iyzico ödeme sistemine onay vermelisiniz.
 
-![](../.gitbook/assets/picture1%20%284%29.png)
+![](../.gitbook/assets/picture1%20%2810%29.png)
 
 **Adım 2.**
 
 “Accept credit cards” bölümünden iyzico’yu seçin.
 
-![](../.gitbook/assets/picture1%20%282%29.png)
+![](../.gitbook/assets/picture1%20%285%29.png)
 
 **Adım 3.**
 
 Iyzico api anahtarlarını girin.
 
-![](../.gitbook/assets/picture1%20%283%29.png)
+![](../.gitbook/assets/picture1%20%288%29.png)
 
 {% hint style="success" %}
 Artık siteniz ödeme almak için hazır.

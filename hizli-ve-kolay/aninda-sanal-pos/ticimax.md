@@ -1,18 +1,16 @@
 ---
-description: >-
-  Natro akıllı eticaret paketi​ - Tel : 0 (212) 213 1 213 - Mail :
-  destek@natro.com
+description: Ticimax altyapısı üzerinden iyzico anında sanal pos başvurusu.
 ---
 
-# Natro
+# Ticimax
 
 iyzico “Anında Sanal Pos” kurulumu sayesinde hiç beklemeden online satışa başlayabilir, 7 farklı kredi kartı ailesi ile taksitli ödeme alabilirsiniz.
 
-### Natro E-Ticaret Hosting - iyzico Anında Sanal Pos Uygulaması
+### Ticimax - iyzico Anında Sanal Pos Uygulaması
 
-Natro E-ticaret Hosting paketinizin yönetim kısmında, _**“iyzico Api Anahtarı”**_ bölümündeki _**“API Anahtarı Oluşturmak İçin Tıklayın”**_ linkine tıklayarak iyzico’ya anında sanal pos kurulumunu yapabilirsiniz.
+Ticimax yönetici panelinizde, Ayarlar-&gt;Genel Ayarlar-&gt;Ödeme Yöntemleri kısmından, “_**iyzico Anında Sanal Pos Başvurusu**_” butonu ile kurulumu başlatabilirsiniz.
 
-![](../../.gitbook/assets/natro1.png)
+![](../../.gitbook/assets/picture1%20%289%29.png)
 
 Kurulumu başlattıktan sonra açılan formu doldurup kaydet butonuna basin. 
 
@@ -20,7 +18,7 @@ Kurulumu başlattıktan sonra açılan formu doldurup kaydet butonuna basin.
 E-mail adresinizin doğru olduğunu kontrol etmeyi unutmayın. iyzico ekibi bundan sonraki süreçte sizinle burada girdiğiniz email adresiniz üzerinden iletişime geçecektir.
 {% endhint %}
 
-![](../../.gitbook/assets/natro2.png)
+![](../../.gitbook/assets/picture2%20%287%29.png)
 
 {% hint style="success" %}
 Bu kadar kolay, **iyzico Anında Sanal Pos** ile artık **siteniz ödeme almak için hazır**. 

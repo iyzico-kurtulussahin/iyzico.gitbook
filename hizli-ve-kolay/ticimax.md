@@ -32,7 +32,7 @@ Ek olarak Ticimax tarafından hazırlanmış [http://destekalani.com/Icerik/iyzi
 
 Ticimax panelinizde, **Ayarlar-&gt;Genel Ayarlar** kısmına tıklayarak iyzico ayarlarının olduğu kısma ulaşabilirsiniz.
 
-![](../.gitbook/assets/picture1.png)
+![](../.gitbook/assets/picture1%20%281%29.png)
 
 **Adım 2.**
 

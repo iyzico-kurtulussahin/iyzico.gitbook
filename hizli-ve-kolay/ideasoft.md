@@ -42,7 +42,7 @@ Ideasoft yönetici panelinizde **Ayarlar-&gt;Ödeme Ayarları** kısmından öde
 
 Ödeme ayarları içerisinden **iyzico Ayarları**’nı seçiniz. Eğer ödeme ayarları satırında iyzico Ayarları bulunmuyor ise ideasoft destek ekibi ile iletişime geçerek \([https://www.ideasoft.com.tr/sayfa/iletisim](https://www.ideasoft.com.tr/sayfa/iletisim)\) iyzico ayarlarının aktif edilmesini sağlayabilirsiniz.
 
-![](../.gitbook/assets/picture2.png)
+![](../.gitbook/assets/picture2%20%286%29.png)
 
 **Adım 3.**
 
@@ -60,7 +60,7 @@ iyzico Ayarları bölümünde sağ taraftaki kart markalarının \(ör: Maksimum
 
 Bu işlem, ürünlerinizin açıklamasında bulunan taksit seçenleri kısmı için gereklidir. Iyzico’da 2-3-6-9 ve 12 taksit seçenekleri bulunmaktadır. “Pos Oranlarını Doldur” butonuna tıkladığınızda bu taksitlerden hesabınızda aktif olanlar otamatik olarak yüklenecektir.
 
-![](../.gitbook/assets/picture3.png)
+![](../.gitbook/assets/picture3%20%284%29.png)
 
 {% hint style="success" %}
 Artık siteniz ödeme almak için hazır
