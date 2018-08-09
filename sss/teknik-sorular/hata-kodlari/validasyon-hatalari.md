@@ -4,6 +4,10 @@ description: 'iyzico API''ı tarafından, işlem bankaya gönderilmeden verilen 
 
 # Validasyon Hataları
 
+### 3 - email gönderilmesi zorunludur
+
+ Ödeme isteğinde iyzico API'ına gönderilen buyerEmail parametresi zorunlu bir parametredir. Eğer bu parametre gönderilmemiş ise iyizco API'ından _**email gönderilmesi zorunludur**_ mesajı dönmektedir.
+
 ### 8 - identityNumber gönderilmesi zorunludur
 
 iyzico API'ında identityNumber parametresi ile kimlik numarasının gönderilmesi MASAK mevzuatı gereğince tüm müşterilerimiz için zorunludur. Bu parametre gönderilmediğinde "identityNumber gönderilmesi zorunludur" hata mesajı dönecektir. 
@@ -54,6 +58,16 @@ Sandbox ortamına sorgu yaparken baseUrl değeri:
 ```text
 https://sandbox-api.iyzipay.com
 ```
+
+### 5062 - Gönderilen tutar tüm kırılımların toplam tutarına eşit olmalıdır
+
+Ödeme isteğinde veya ödeme formu başlatma isteğinde, iyzico API’ına 3 temel fiyat bilgisi gönderilmektedir. 
+
+* paidPrice : karttan çekilecek tutar
+* price: sepettteki ürünlerin toplam tutarı 
+* basketItemPrice : sepetteki her bir ürün için fiyat bilgisi
+
+Sepetteki ürünlerin toplam fiyatı _**price**_ parametresindeki tutara eşit olmalıdır. _**price**_ parametresinin itemPrice’lar toplamına eşit olmadığı durumda bu hata dönmektedir. 
 
 ### 5079 - Marketplace üye işyeri için sadece ürün ödemesi yapılırken subMerchantKey veya subMerchantPrice gönderilmelidir
 
