@@ -51,6 +51,7 @@
       * [Banka Hataları](sss/teknik-sorular/hata-kodlari/banka-hatalari/README.md)
         * [Banka Hataları Sözlüğü](sss/teknik-sorular/hata-kodlari/banka-hatalari/ek-aciklamalar/README.md)
           * [Genel Red ve Geçersiz İşlem](sss/teknik-sorular/hata-kodlari/banka-hatalari/ek-aciklamalar/genel-red-ve-gecersiz-islem.md)
+          * [57 - Kart sahibine açik olmayan islem](sss/teknik-sorular/hata-kodlari/banka-hatalari/ek-aciklamalar/57-kart-sahibine-acik-olmayan-islem.md)
     * [Changelog](sss/teknik-sorular/changelog.md)
     * [Parametre Sözlüğü](sss/teknik-sorular/parametre-soezluegue.md)
     * [github.com/iyzico](sss/teknik-sorular/github.com-iyzico.md)
