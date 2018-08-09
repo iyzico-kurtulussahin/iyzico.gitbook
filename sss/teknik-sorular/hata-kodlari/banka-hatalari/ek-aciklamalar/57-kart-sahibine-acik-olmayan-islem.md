@@ -1,3 +1,9 @@
+---
+description: >-
+  Kart bankası tarafından iletilen bir hatadır ve çoğunlukla kartın online
+  işlemlere kapalı olduğu durumda dönmekedir.
+---
+
 # 57 - Kart sahibine açik olmayan islem
 
 57 kodlu _**kart sahibine açık olmayan işlem**_ mesajı ödeme isteğinin ardından kart bankası tarafından dönmektedir.
