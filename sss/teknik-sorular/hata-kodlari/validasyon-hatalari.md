@@ -59,6 +59,10 @@ Sandbox ortamına sorgu yaparken baseUrl değeri:
 https://sandbox-api.iyzipay.com
 ```
 
+### 3005 - cardUserKey bulunamadı
+
+Yapılan sorguda kullanılan cardUserKey bilgisinin, ilgili hesapta tanımlı olmadığı durumda dönmektedir. cardUserKey parametresi yanlış set edilmiş demektir.
+
 ### 5062 - Gönderilen tutar tüm kırılımların toplam tutarına eşit olmalıdır
 
 Ödeme isteğinde veya ödeme formu başlatma isteğinde, iyzico API’ına 3 temel fiyat bilgisi gönderilmektedir. 
