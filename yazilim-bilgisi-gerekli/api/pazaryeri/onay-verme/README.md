@@ -1,8 +1,6 @@
 ---
-description: Yapım aşamasında
+description: Item approval - Item Disapproval
 ---
 
 # Onay verme
-
-Sorularınız için entegrasyon@iyzico.com adresine mail atarak destek talep edebilirsiniz.
 
