@@ -49,6 +49,8 @@
         * [Satıcı Güncelleme](yazilim-bilgisi-gerekli/api/pazaryeri/alt-uye-isyeri/satici-guencelleme/README.md)
           * [Bireysel Satıcı Güncelleme](yazilim-bilgisi-gerekli/api/pazaryeri/alt-uye-isyeri/satici-guencelleme/bireysel-satici-guencelleme.md)
           * [Şahıs Şirketi Satıcı Güncelleme](yazilim-bilgisi-gerekli/api/pazaryeri/alt-uye-isyeri/satici-guencelleme/sahis-sirketi-satici-guencelleme.md)
+          * [Kurumsal Satıcı Günelleme](yazilim-bilgisi-gerekli/api/pazaryeri/alt-uye-isyeri/satici-guencelleme/kurumsal-satici-guenelleme.md)
+        * [Satıcı Sorgulama](yazilim-bilgisi-gerekli/api/pazaryeri/alt-uye-isyeri/satici-sorgulama.md)
       * [Onay verme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/README.md)
         * [Onay Verme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/onay-verme.md)
         * [Onay Geri Çekme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/onay-geri-cekme.md)
