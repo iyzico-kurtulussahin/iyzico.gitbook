@@ -54,6 +54,7 @@
       * [Onay verme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/README.md)
         * [Onay Verme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/onay-verme.md)
         * [Onay Geri Çekme](yazilim-bilgisi-gerekli/api/pazaryeri/onay-verme/onay-geri-cekme.md)
+      * [Pazaryeri Entegrasyonu Olan Hazır Altyapılar](yazilim-bilgisi-gerekli/api/pazaryeri/pazaryeri-entegrasyonu-olan-hazir-altyapilar.md)
 * [Sık Sorulan Sorular](sss/README.md)
   * [Genel Sorular](sss/genel-sorular/README.md)
     * [Kişisel Verilerin Korunması Kanunu](sss/genel-sorular/kisisel-verilerin-korunmasi-kanunu.md)
