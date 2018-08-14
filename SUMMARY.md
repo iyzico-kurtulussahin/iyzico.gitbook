@@ -59,6 +59,7 @@
     * [Kişisel Verilerin Korunması Kanunu](sss/genel-sorular/kisisel-verilerin-korunmasi-kanunu.md)
     * [SSL Nedir](sss/genel-sorular/ssl-nedir.md)
     * [SSL Kurulumu](sss/genel-sorular/ssl-kurulumu-icin-kimden-destek-alabilirim.md)
+    * [Çevrim Ücreti](sss/genel-sorular/cevrim-uecreti.md)
   * [Teknik Sorular](sss/teknik-sorular/README.md)
     * [Test Kartları](sss/teknik-sorular/test-kartlari.md)
     * [Hata Kodları](sss/teknik-sorular/hata-kodlari/README.md)
