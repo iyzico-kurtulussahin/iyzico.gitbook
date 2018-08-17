@@ -9,9 +9,13 @@ description: >-
 iyzico ödeme API’si, internet üzerinden ödeme kabul eden tüm üye işyerlerine ihtiyacına cevap verecek şekilde, oturum bilgisi tutmayan \(stateless\) Restful servis odaklı bir mimaride geliştirilmiştir. iyzico'nun sunduğu sunucu taraflı programlama diline uygun istemciler \(client\) ile çok kolay entegre olunabilir. 
 
 {% hint style="danger" %}
-Canlı ortam api anahtarlarını kullandığınız zaman baseUrl değeri olarak **`https://api.iyzipay.com`** adresini;
+iyzico'da 2 farklı ortam bulunmaktadır. Canlı \(Live\) ortam ve Sandbox Test ortamı. Canlı ortam kontrol panelinizden erişebileceğiniz api anahtarları ile sandbox kontrol panelinizden erişebileceğiniz sandbox api anahtarları için kullanmanız gereken baseUrl değeri aşağıdaki gibi olmalıdır.
 
-Sandbox api anahtarlarını kullandığınız zaman da "**`https://sandbox-api.iyzipay.com`**" baseUrl adresini kullanmanız gerekmektedir.
+Canlı \(Live\) Ortam Api Anahtarları İçin : **`https://api.iyzipay.com`**
+
+Sandbox Test Ortamı Api Anahtarları İçin :**`https://sandbox-api.iyzipay.com`**
+
+Sandbox api anahtarlarına ulaşmak için [**https://sandbox-merchant.iyzipay.com/auth/register**](https://sandbox-merchant.iyzipay.com/auth/register) ****adresinden rastgele mail adresi kayıt oluşturup panelin "Ayarlar" bölümünden ulaşabilirsiniz.
 {% endhint %}
 
 ### **iyzico github Sayfası**
