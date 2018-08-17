@@ -8,6 +8,12 @@ description: >-
 
 iyzico ödeme API’si, internet üzerinden ödeme kabul eden tüm üye işyerlerine ihtiyacına cevap verecek şekilde, oturum bilgisi tutmayan \(stateless\) Restful servis odaklı bir mimaride geliştirilmiştir. iyzico'nun sunduğu sunucu taraflı programlama diline uygun istemciler \(client\) ile çok kolay entegre olunabilir. 
 
+{% hint style="info" %}
+Canlı ortam api anahtarlarını kullandığınız zaman baseUrl değeri olarak "https://api.iyzipay.com" adresini;
+
+Sandbox api anahtarlarını kullandığınız zaman da "https://sandbox-api.iyzipay.com" baseUrl adresini kullanmanız gerekmektedir.
+{% endhint %}
+
 ### **iyzico github Sayfası**
 
 {% page-ref page="../sss/teknik-sorular/github.com-iyzico.md" %}
