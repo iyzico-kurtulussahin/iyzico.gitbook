@@ -8,6 +8,8 @@ description: >-
 
 iyzico ödeme API’si, internet üzerinden ödeme kabul eden tüm üye işyerlerine ihtiyacına cevap verecek şekilde, oturum bilgisi tutmayan \(stateless\) Restful servis odaklı bir mimaride geliştirilmiştir. iyzico'nun sunduğu sunucu taraflı programlama diline uygun istemciler \(client\) ile çok kolay entegre olunabilir. 
 
+### Base Url
+
 {% hint style="danger" %}
 iyzico'da 2 farklı ortam bulunmaktadır. Canlı \(Live\) ortam ve Sandbox Test ortamı. Canlı ortam kontrol panelinizden erişebileceğiniz api anahtarları ile sandbox kontrol panelinizden erişebileceğiniz sandbox api anahtarları için kullanmanız gereken baseUrl değeri aşağıdaki gibi olmalıdır.
 
