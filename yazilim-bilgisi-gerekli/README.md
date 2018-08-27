@@ -26,6 +26,8 @@ Sandbox api anahtarlarına ulaşmak için [**https://sandbox-merchant.iyzipay.co
 
 ### Sandbox \(Test\) Ortamı
 
+{% page-ref page="../sss/teknik-sorular/sandbox-test-ortami.md" %}
+
 ### İyzico ödeme formu entegrasyonu
 
 {% page-ref page="odeme-formu/" %}
