@@ -43,7 +43,7 @@ Yazılım geliştirmede kullandığınız programlama diline uygun kütüphaneyi
 
 iyzico'yu iki şekilde entegre edebilirsiniz.
 
-Hızlı ve kolay bir şekilde ödeme almaya başlamak ise  ödeme formunu tercih edilebilirsiniz. Ön yüz kontrolleri \(validasyon\), BIN numarası sorgulama, Taksit yönetimi, 3D Secure ile ödeme, BKM Express, Fraud ve işlem limitleri için ek sorgu yapmaya gerek kalmadan tek bir entegrasyon ile işlemler tamamlanır.  Rehbere ulaşmak için [**tıklayınız**](https://google.com).
+Hızlı ve kolay bir şekilde ödeme almaya başlamak ise  ödeme formunu tercih edilebilirsiniz. Ön yüz kontrolleri \(validasyon\), BIN numarası sorgulama, Taksit yönetimi, 3D Secure ile ödeme, BKM Express, Fraud ve işlem limitleri için ek sorgu yapmaya gerek kalmadan tek bir entegrasyon ile işlemler tamamlanır.  Rehbere ulaşmak için [**tıklayınız**](https://iyzico.gitbook.io/tr/yazilim-bilgisi-gerekli/odeme-formu).
 
 
 
