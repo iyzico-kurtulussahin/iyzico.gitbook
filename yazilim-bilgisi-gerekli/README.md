@@ -39,7 +39,19 @@ Yazılım geliştirmede kullandığınız programlama diline uygun kütüphaneyi
 | Ruby | gem -&gt; iyzipay | [https://github.com/iyzico/iyzipay-ruby](https://github.com/iyzico/iyzipay-ruby) |
 | Python | pip -&gt; iyzipay | [https://github.com/iyzico/iyzipay-python](https://github.com/iyzico/iyzipay-python) |
 
+## Entegrasyon Methodları
+
+iyzico'yu iki şekilde entegre edebilirsiniz.
+
+Hızlı ve kolay bir şekilde ödeme almaya başlamak ise  ödeme formunu tercih edilebilirsiniz. Ön yüz kontrolleri \(validasyon\), BIN numarası sorgulama, Taksit yönetimi, 3D Secure ile ödeme, BKM Express, Fraud ve işlem limitleri için ek sorgu yapmaya gerek kalmadan tek bir entegrasyon ile işlemler tamamlanır.  Rehbere ulaşmak için [**tıklayınız**](https://google.com).
+
+
+
+Eğer PCI SAQ-D formunu dolduruyor iseniz kendi tasarımınız olan ödeme formunuzu API aracılığı ile entegre edebilirsiniz.
+
 {% hint style="info" %}
 Bu sayfa ile ilgili sorunuz var ise `destek@iyzico.com` adresinden bizim ile iletişime geçebilirsiniz.
 {% endhint %}
+
+
 
