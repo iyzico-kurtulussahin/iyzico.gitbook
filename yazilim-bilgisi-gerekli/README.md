@@ -1,49 +1,45 @@
 ---
 description: >-
-  iyzico'nun ödeme formunu veya API'sini entegre etmek için gerekli kodlara
-  buradan ulaşabilirsiniz.
+  Yazılım geliştirme ekibiniz entegrasyon için gerekli yönlendirmelere buradan
+  ulaşabilir.
 ---
 
 # Yazılım bilgisi gerekli
 
-iyzico ödeme API’si, internet üzerinden ödeme kabul eden tüm üye işyerlerine ihtiyacına cevap verecek şekilde, oturum bilgisi tutmayan \(stateless\) Restful servis odaklı bir mimaride geliştirilmiştir. iyzico'nun sunduğu sunucu taraflı programlama diline uygun istemciler \(client\) ile çok kolay entegre olunabilir. 
+## Genel Bilgi
 
-### Base Url
+iyzico'yu sitenize entegre etmenin en hızlı yolu ödeme formunu kullanmaktır. iyzico'nun hazırlamış olduğu kütüphaneler ile 2 adet basit sorguyu projelerinizde kullanabilirsiniz.
 
-{% hint style="danger" %}
-iyzico'da 2 farklı ortam bulunmaktadır. Canlı \(Live\) ortam ve Sandbox Test ortamı. Canlı ortam kontrol panelinizden erişebileceğiniz api anahtarları ile sandbox kontrol panelinizden erişebileceğiniz sandbox api anahtarları için kullanmanız gereken baseUrl değeri aşağıdaki gibi olmalıdır.
-
-Canlı \(Live\) Ortam Api Anahtarları İçin : **`https://api.iyzipay.com`**
-
-Sandbox Test Ortamı Api Anahtarları İçin :**`https://sandbox-api.iyzipay.com`**
-
-Sandbox api anahtarlarına ulaşmak için [**https://sandbox-merchant.iyzipay.com/auth/register**](https://sandbox-merchant.iyzipay.com/auth/register) ****adresinden rastgele mail adresi kayıt oluşturup panelin "Ayarlar" bölümünden ulaşabilirsiniz.
+{% hint style="warning" %}
+Bu entegrasyonu yapabilmeniz için iyzico hesabınıza giriş yaptıktan sonra [Firma Ayarları](https://merchant.iyzipay.com/merchant-settings) menüsünde **API** ve **Güvenlik** anahtarlarını görebiliyor olmanız gerekmektedir. Eğer anahtarları göremiyor iseniz başvurunuz konusunda destek ekibi ile iletişime geçebilirsiniz.
 {% endhint %}
 
-### **iyzico github Sayfası**
+## Nasıl Çalışır ?
 
-{% page-ref page="../sss/teknik-sorular/github.com-iyzico.md" %}
+iyzico sürekli gelişmekte olan kapsamlı bir Sandbox \(Test\) ortamı sunar. Sandbox ortamında hesap oluşturmak için[ bu bağlantıyı](https://sandbox-merchant.iyzipay.com/auth/register) kullanabilirsiniz. Test ortamında test kartları ile kullanılmak üzere API ve Güvenlik anahtarlarınıza, email adresiniz ile kayıt oluşturup, panelinizin "Ayarlar-&gt;Firma Ayarları" bölümünden ulaşabilirsiniz.
 
-### Sandbox \(Test\) Ortamı
+{% hint style="danger" %}
+iyzico'da 2 farklı ortam bulunmaktadır. Canlı \(Live\) ortam ve Sandbox \(Test\) ortamı. **Canlı**  kontrol panelinizden erişebileceğiniz API ve Güvenlik anahtarları, **Sandbox** kontrol panelinizdekilerden farklıdır. Bu nedenden dolayı iki ortamın baseUrl değerleri aşağıdaki gibidir. Bu değerleri **kütüphanenizdeki** config dosyasında kullanabilirsiniz.
 
-{% page-ref page="../sss/teknik-sorular/sandbox-test-ortami.md" %}
+**Canlı** ortamtaki anahtarlar için **\(Live\)** : **`https://api.iyzipay.com`**
 
-### İyzico ödeme formu entegrasyonu
+**Sandbox** ortamındaki anahtarlar için **\(Test\)** :**`https://sandbox-api.iyzipay.com`**
+{% endhint %}
 
-{% page-ref page="odeme-formu/" %}
+## Hadi Başlayalım
 
-### **Entegrasyon sürecinde dikkat edilecek noktalar**
+Yazılım geliştirmede kullandığınız programlama diline uygun kütüphaneyi [github hesabımızdan](https://github.com/iyzico) indirebilir veya kullandığınız dilin paket yöneticisi ile projenize ekleyebilirsiniz.
 
-* Canlı ortamda iyzico API'ına gönderilen parametrelere müşteriden alınan bilgiler set edilmelidir. Müşteriniden alınmayan "dummy" değerler sorgu parametrelerine set edilmemelidir.
-* Ödeme işlemi sonucunda iyzico tarafından dönen cevaptaki değerler \(price, paidPrice, basketId, conversationId\) ile sizin sisteminize kaydettiğiniz değerleri karşılaştırarak bir farklılık var ise genel bir hata mesajı gösterebilirsiniz. Bu tür durumlarda iyzico entegrasyon ekibi ile iletişime geçmeyi unutmayınız. Müşteri tarafından ödenen tutar iyzico tarafından dönen cevaptaki paidPrice parametresindeki değere eşittir.
+| Programlama Dili | Paket Yöneticisi | Github Sayfası |
+| :--- | :--- | :--- |
+| PHP | composer -&gt; iyzipay | [https://github.com/iyzico/iyzipay-php](https://github.com/iyzico/iyzipay-php) |
+| C\# | nuget -&gt; iyzipay | [https://github.com/iyzico/iyzipay-dotnet](https://github.com/iyzico/iyzipay-dotnet) |
+| Java | maven -&gt; iyzipay | [https://github.com/iyzico/iyzipay-java](https://github.com/iyzico/iyzipay-java) |
+| Node | npm -&gt; iyzipay | [https://github.com/iyzico/iyzipay-node](https://github.com/iyzico/iyzipay-node) |
+| Ruby | gem -&gt; iyzipay | [https://github.com/iyzico/iyzipay-ruby](https://github.com/iyzico/iyzipay-ruby) |
+| Python | pip -&gt; iyzipay | [https://github.com/iyzico/iyzipay-python](https://github.com/iyzico/iyzipay-python) |
 
-### **Canlı ortama geçiş**
-
-* Geliştirmeler tamamlandıktan sonra ödeme adımlarınızı, test kartlarınız ile tüm durumlar için test edin.
-* iyzico servislerinden dönen ve olabilecek tüm hataları karşılayacak şekilde kodunuzu düzenleyin.
-* Sonuç sayfanızın iyzico'dan gelen yanıtı yorumlayabiliyor olmasına dikkat edin.
-* Hassas olmayan dataları ve yanıtları loglamaya dikkat edin.
-* Entegrasyonunuzun son kullanıcılar için [Kişisel Verilerin Koruması Kanunu](https://dev.iyzipay.com/tr/sss) ile uyumlu olmasına dikkat edin.
-* iyzico logolarını sitenize eklemeyi unutmayın. [iyzico logo paketi](https://dev.iyzipay.com/tr/iyzico-logo-pack.zip).
-* iyzico entegrasyon ekibinin onayı için [**entegrasyon@iyzico.com**](mailto:entegrasyon@iyzico.com) mail adresi ile iletişime geçin.
+{% hint style="info" %}
+Bu sayfa ile ilgili sorunuz var ise `destek@iyzico.com` adresinden bizim ile iletişime geçebilirsiniz.
+{% endhint %}
 
