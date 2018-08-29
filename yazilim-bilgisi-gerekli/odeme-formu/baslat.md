@@ -99,6 +99,12 @@ Dönen cevap içerisindeki **checkoutFormContent** parametresi iyzico ödeme for
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+iyzico, ödeme formuna kart bilgileri girilip "X TL Öde" butonuna basıldıktan sonra; ödeme formunu oluştururken belirlenen callbackUrl adresine yönlenir ve bu adrese bir **token** değeri post edilir. 
+
+Bu **token** değeri ile ikinci bir sorgu yapılması gerekmektedir. Yapılacak olan ikinci sorgu ile, işlem sonucuna dair ayrıntılar alınmaktadır. Bu sorgu hakkında ayrıntılı bilgiyi "ödeme formu sonuç" sayfamızda bulabilirsiniz.
+{% endhint %}
+
 ### **Örnek Kodlar**
 
 * [Php](https://github.com/iyzico/iyzipay-php/blob/master/samples/initialize_checkout_form.php#L1)
