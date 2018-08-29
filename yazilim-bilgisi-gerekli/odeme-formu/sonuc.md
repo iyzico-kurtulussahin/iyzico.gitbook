@@ -12,14 +12,6 @@ Bu **token** değeri ile ikinci bir sorgu yapılması gerekmektedir. Yapılacak 
 
 Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz anda ya da callbackUrl adresinize iyzico tarafından post edildiğinde alabilirsiniz.
 
-### Parametreler
-
-| **Parametre ismi** | **Açıklama** |
-| :--- | :--- |
-| **locale** | iyzico istek sonucunda dönen metinlerin dilini ayarlamak için kullanılır. Varsayılan değeri tr’dir. |
-| **conversationId** | İstek esnasında gönderip, sonuçta alabileceğiniz bir değer, request/response eşleşmesi yapmak için kullanılabilir. |
-| **token** | Checkout form için oluşturulan tekil değer. Her istek için özel üretilir ve işyerine dönülür. Ödemenin sonucunu öğrenmek için zorunlu bir alandır. |
-
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
 Ödeme formu sonuç
@@ -155,7 +147,7 @@ Checkout form için oluşturulan tekil değer. Her istek için özel üretilir v
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Örnek Kodlar**
+## **Örnek Kodlar**
 
 * [Php](https://github.com/iyzico/iyzipay-php/blob/master/samples/retrieve_checkout_form_result.php#L1)
 * [.Net](https://github.com/iyzico/iyzipay-dotnet/blob/master/Iyzipay.Samples/CheckoutFormSample.cs#L107)
