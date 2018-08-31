@@ -102,6 +102,67 @@ samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyi
 | rawResult |  |
 {% endtab %}
 
+{% tab title="Örnek Sorgu" %}
+```bash
+curl -X POST \
+https://sandbox-api.iyzipay.com/payment/iyzipos/checkoutform/initialize/auth/ecom \
+-H 'authorization: IYZWS sandbox-afXhZPW0MQlE4dCUUlHcEopnMBgXnAZI:bfzhXpG9fexiEfIb9043coMYOxQ=' \
+-H 'content-type: application/json' \
+-H 'x-iyzi-rnd: 123456789' \
+-d '
+
+{
+"locale": "tr",
+"conversationId": "123456789",
+"price": "0.3",
+"basketId": "B67832",
+"paymentGroup": "SUBSCRIPTION",
+"buyer": {
+"id": "BY789",
+"name": "John",
+"surname": "Doe",
+"identityNumber": "74300864791",
+"email": "email@email.com",
+"gsmNumber": "+905350000000",
+"registrationAddress": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+"city": "Istanbul",
+"country": "Turkey",
+"ip": "85.34.78.112"
+},
+"shippingAddress": {
+"address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+"contactName": "Jane Doe",
+"city": "Istanbul",
+"country": "Turkey"
+},
+"billingAddress": {
+"address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+"contactName": "Jane Doe",
+"city": "Istanbul",
+"country": "Turkey"
+},
+"basketItems": [
+{
+"id": "BI101",
+"price": "0.3",
+"name": "Binocular",
+"category1": "Collectibles",
+"itemType": "PHYSICAL"
+}
+],
+"callbackUrl": "https://www.merchant.com/callback",
+"currency": "TRY",
+"paidPrice": "1.2",
+"enabledInstallments": [
+2,
+3,
+6,
+9
+]
+}'
+```
+{% endtab %}
+
 {% tab title="Örnek Yanıt" %}
 ```javascript
 {
