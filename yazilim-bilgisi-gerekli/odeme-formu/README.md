@@ -86,9 +86,20 @@ samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyi
 {% endtab %}
 
 {% tab title="Response" %}
-|  |  |
+| Parametre İsmi | Açıklama |
 | :--- | :--- |
-|  |  |
+| token |  |
+| checkoutFormContent |  |
+| tokenExpireTime |  |
+| paymentPageUrl |  |
+| status |  |
+| errorCode |  |
+| errorMessage |  |
+| errorGroup |  |
+| locale |  |
+| systemTime |  |
+| conversationId |  |
+| rawResult |  |
 {% endtab %}
 {% endtabs %}
 
