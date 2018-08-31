@@ -45,37 +45,52 @@ Eğer **Canlı** yani **gerçek** ortamı kullanmak istiyor iseniz  API ve Güve
 
 iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz. 
 
-{% api-method method="post" host="" path="" %}
-{% api-method-summary %}
-CreateCheckoutFormInitializeRequest
-{% endapi-method-summary %}
+{% tabs %}
+{% tab title="Request" %}
+samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyin.
 
-{% api-method-description %}
+| Parametre İsmi | Açıklama |
+| :--- | :--- |
+| locale |  |
+| conversationId |  |
+| price |  |
+| paidPrice |  |
+| currency |  |
+| basketId |  |
+| paymentGroup |  |
+| callbackUrl |  |
+| enabledInstallments |  |
+| buyerId |  |
+| buyerName |  |
+| buyerSurname |  |
+| buyerGsmNumber |  |
+| buyerEmail |  |
+| buyerIdentity |  |
+| buyerRegistrationAddress |  |
+| buyerIp |  |
+| buyerCity |  |
+|  buyerCountry |  |
+| shippingContactName |  |
+| shippingAddress |  |
+| shippingCity |  |
+| shippingCountry |  |
+| billingContactName |  |
+| billingAddress |  |
+| billingCity |  |
+| billingCountry |  |
+| basketItemId |  |
+| basketItemName |  |
+| basketItemCategory1 |  |
+| basketItemType |  |
+| basketItemPrice |  |
+{% endtab %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% tab title="Response" %}
+|  |  |
+| :--- | :--- |
+|  |  |
+{% endtab %}
+{% endtabs %}
 
 ## 3- Ödeme formunu göstermek
 
