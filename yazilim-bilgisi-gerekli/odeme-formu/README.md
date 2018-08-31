@@ -51,38 +51,38 @@ samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyi
 
 | Parametre İsmi | Açıklama |
 | :--- | :--- |
-| locale |  |
-| conversationId |  |
-| price |  |
-| paidPrice |  |
-| currency |  |
-| basketId |  |
-| paymentGroup |  |
-| callbackUrl |  |
-| enabledInstallments |  |
-| buyerId |  |
-| buyerName |  |
-| buyerSurname |  |
-| buyerGsmNumber |  |
-| buyerEmail |  |
-| buyerIdentity |  |
-| buyerRegistrationAddress |  |
-| buyerIp |  |
-| buyerCity |  |
-|  buyerCountry |  |
-| shippingContactName |  |
-| shippingAddress |  |
-| shippingCity |  |
-| shippingCountry |  |
-| billingContactName |  |
-| billingAddress |  |
-| billingCity |  |
-| billingCountry |  |
-| basketItemId |  |
-| basketItemName |  |
-| basketItemCategory1 |  |
-| basketItemType |  |
-| basketItemPrice |  |
+| locale | Ödeme formu dilini belirler. Şu anda sadece ingilizce ve Türkçe dili ile kullanılmaktadır. İngilizce için `en` Türkçe için `tr` olarak set edebilirsiniz. |
+| conversationId | Request ve response değerlerini karşılaştırmak için kullanılır. Sipariş numaranızı set edebilirsiniz. |
+| price | Sepetteki ürünlerin \(basketItemPrice\) toplam tutarıdır. Sepetteki ürünlerin toplamı muhakkak bu parametreye eşit olmalıdır.  |
+| paidPrice | Karttan çekilecek tutardır. Price parametresinden düşük veya yüksek veya eşit olabilir. Örneğin bir indirim var ise, price parametresinden yani sepetteki ürünlerin toplam tutarından düşük olabilir.  |
+| currency | Ödeme formunun para birimi için kullanılır. TRY dışında kullanmak için, hesabınızda multicurrency özelliğinin aktif olması gerekmektedir.TRY, EUR, USD, GBP, RUB, CHF, NOK kullanılabilir. |
+| basketId | Sipariş numarası |
+| paymentGroup | PRODUCT olarak set edilir |
+| callbackUrl | iyzico, ödeme formuna kart bilgileri girilip "X TL Öde" butonuna basıldıktan sonra; ödeme formunu oluştururken belirlenen callbackUrl adresine yönlenir ve bu adrese bir token değeri post edilir. Sipariş sonucu sorgulama ve gösterme sayfanızın adresidir. |
+| enabledInstallments | Kategori/ürün/ödeme bazlı taksit kısıtlama için kullanılır. Sadece set edilen taksit seçenekleri ödeme formunda uygun kartlara gösterilir. |
+| buyerId | Alıcınızı temsil eden id bilgisidir. |
+| buyerName | Alıcı adı |
+| buyerSurname | Alıcı soyadı |
+| buyerGsmNumber | Alıcı telefon numarası |
+| buyerEmail | Alıcı email bilgisi, şüpheli işlem tespitinde önemli bir parametredir. |
+| buyerIdentity | Alıcı kimlik numarası. Bu parametre hakkında [buradan](https://iyzico.gitbook.io/tr/sss/teknik-sorular/hata-kodlari/validasyon-hatalari#8-identitynumber-goenderilmesi-zorunludur) ayrıntılı bilgi alabilirsiniz. |
+| buyerRegistrationAddress | Alıcı adres bilgisi |
+| buyerIp | Alıcı ip bilgisi |
+| buyerCity | Alıcı şehir bilgisi |
+| buyerCountry | Alıcı ülke bilgisi |
+| shippingContactName | Kargo isim ve soyisim |
+| shippingAddress | Kargo adres bilgisi |
+| shippingCity | Kargo şehir bilgisi |
+| shippingCountry | Kargo ülke bilgisi |
+| billingContactName | Fatura isim ve soyisim |
+| billingAddress | Fatura adres bilgisi |
+| billingCity | Fatura şehir bilgisi |
+| billingCountry | Fatura ülke bilgisi |
+| basketItemId | Ürünü temsil eden id |
+| basketItemName | Ürün ismi |
+| basketItemCategory1 | Ürün kategorisi |
+| basketItemType | PHYSICAL olarak set edilir |
+| basketItemPrice | Ürün fiyatı |
 {% endtab %}
 
 {% tab title="Response" %}
