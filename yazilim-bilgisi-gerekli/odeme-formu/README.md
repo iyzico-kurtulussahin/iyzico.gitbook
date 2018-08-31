@@ -101,6 +101,21 @@ samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyi
 | conversationId |  |
 | rawResult |  |
 {% endtab %}
+
+{% tab title="Örnek Yanıt" %}
+```javascript
+{
+ "status": "success",
+ "locale": "tr",
+ "systemTime": 1535723683529,
+ "conversationId": "123456789",
+ "token": "706d4070-d3ba-4bcb-ae44-b8f845f2e156",
+ "checkoutFormContent": "<script type=\"text/javascript\">if (typeof iyziInit == 'undefined') {var iyziInit = {currency:\"TRY\",token:\"706d4070-d3ba-4bcb-ae44-b8f845f2e156\",price:1.20,locale:\"tr\",baseUrl:\"https://sandbox-api.iyzipay.com\",registerCardEnabled:true,bkmEnabled:true,userCards:[],force3Ds:false,isSandbox:true,storeNewCardEnabled:true,paymentWithNewCardEnabled:true,enabledApmTypes:[],buyerProtectionEnabled:false,hide3DS:false,gsmNumber:\"\",email:\"email@email.com\",checkConsumerDetail:{\"checkConsumerResult\":{\"consumerExists\":false}},metadata : {},createTag:function(){var iyziCSSTag = document.createElement('link');iyziCSSTag.setAttribute('rel','stylesheet');iyziCSSTag.setAttribute('type','text/css');iyziCSSTag.setAttribute('href','https://sandbox-static.iyzipay.com/checkoutform/css/main.min.css?v=1535723683528');document.head.appendChild(iyziCSSTag);var iyziJSTag = document.createElement('script');iyziJSTag.setAttribute('src','https://sandbox-static.iyzipay.com/checkoutform/js/iyziCheckout.min.js?v=1535723683528');document.head.appendChild(iyziJSTag);}};iyziInit.createTag();}</script>",
+ "tokenExpireTime": 1800,
+ "paymentPageUrl": "https://sandbox-cpp.iyzipay.com?token=706d4070-d3ba-4bcb-ae44-b8f845f2e156&lang=tr"
+}
+```
+{% endtab %}
 {% endtabs %}
 
 ## 3- Ödeme formunu göstermek
