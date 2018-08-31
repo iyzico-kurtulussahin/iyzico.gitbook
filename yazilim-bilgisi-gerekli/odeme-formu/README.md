@@ -1,27 +1,41 @@
 ---
 description: >-
-  iyzico'nun ödeme formu teknolojisini 2 basit sorgu ile entegre edebilirsiniz.
-  Sizler için 1 adet entegrasyon videosu hazırladık ve popüler olan PHP dilini
-  kullandık.
+  iyzico'nun ödeme formu teknolojisini 4 basit adımı takip ederek entegre
+  edebilirsiniz.
 ---
 
 # Ödeme Formu
 
-{% hint style="info" %}
-iyzico ödeme formu ile ödeme almak iki adımdan oluşmaktadır. 
+## Başlangıç
 
-1- Kullanıcıdan alacağınız sipariş bilgileri ile iyzico'dan ödeme formu scriptini çağırmak
+Hazırladığımız bu rehber ile birlikte iyzico ödeme formunu hızlı bir şekilde entegre edebilirsiniz.
 
-2- Yapılan ödemenin sonucunu öğrenme sorgusu
-{% endhint %}
+1. API ve Güvenlik anahtarınızı doğru `baseUrl` ile kullanın.
+2. Ödeme formunu başlatmak için `CreateCheckoutFormInitializeRequest` sorgusunu çalıştırın ve `checkoutFormContent` alanında dönen scripti formun gösterilmesini istediğiniz sayfada kullanın.
+3. Ödeme formunu göstermek için dönen scriptin bulunduğu sayfaya aşağıdaki html etiketlerini ekleyin. `<div id="iyzipay-checkout-form" class="responsive"></div>`
+4. Yapılan ödemenin sonucunu öğrenmek için `RetrieveCheckoutFormRequest` sorgusunu 2. adımdaki istekte gönderdiğiniz `CallbackUrl` adresine **POST** edilen token değeri kullanınız.
 
-### **1 - Ödeme Formu Başlatma**
+## 1- API ve Güvenlik anahtarı kullanımı
+
+
+
+## 2-
+
+## 3
+
+## 4
+
+## 5 test your integration
+
+## 6 tebrikler
+
+## Sonraki adımlar
 
 iyzico'ya yapılan sorgu ile ödeme formu scripti alınarak, iyzico ödeme formu müşteriye gösterilir. Bu servis ile ilgili detaylı bilgiyi aşağıdaki linkten ulaşabileceğiniz ödeme formu başlatma sayfasından edinebilirsiniz.
 
 {% page-ref page="baslat.md" %}
 
-### **2 - Ödeme Formu Sonuç Öğrenme**
+### \*\*\*\*
 
 Kart sahibi ödeme formu üzerinde ödemesini tamamladıktan sonra, otomatik olarak sonuç sayfasına yönlenir. Bu aşama iyzico tarafından sonuç sayfasına iletilen **"token"** ile ikinci bir sorgu yapılarak ödeme sonucu hakkında ayrıntılı bilgi alınır. Bu servis ile ilgili detaylı bilgiyi aşağıdaki linkten ulaşabileceğiniz ödeme formu sonucu sayfasından edinebilirsiniz.
 
