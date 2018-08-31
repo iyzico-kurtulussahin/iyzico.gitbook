@@ -11,23 +11,79 @@ description: >-
 Hazırladığımız bu rehber ile birlikte iyzico ödeme formunu hızlı bir şekilde entegre edebilirsiniz.
 
 1. API ve Güvenlik anahtarınızı doğru `baseUrl` ile kullanın.
-2. Ödeme formunu başlatmak için `CreateCheckoutFormInitializeRequest` sorgusunu çalıştırın ve `checkoutFormContent` alanında dönen scripti formun gösterilmesini istediğiniz sayfada kullanın.
+2. Ödeme formunu başlatmak için ilgili kütüphanedeki `CreateCheckoutFormInitializeRequest` sorgusunu çalıştırın ve `checkoutFormContent` alanında dönen scripti formun gösterilmesini istediğiniz sayfada kullanın.
 3. Ödeme formunu göstermek için dönen scriptin bulunduğu sayfaya aşağıdaki html etiketlerini ekleyin. `<div id="iyzipay-checkout-form" class="responsive"></div>`
 4. Yapılan ödemenin sonucunu öğrenmek için `RetrieveCheckoutFormRequest` sorgusunu 2. adımdaki istekte gönderdiğiniz `CallbackUrl` adresine **POST** edilen token değeri kullanınız.
 
 ## 1- API ve Güvenlik anahtarı kullanımı
 
+Canlı \(Gerçek\) veya Sandbox \(Test\) ortamınız için iyzico panelinize giriş yaptıkdan sonra  "**Ayarlar -&gt; Firma Ayarları**" menüsüne tıklayınız. 
 
+![Ayarlar -&amp;gt; Firma Ayarlar&#x131;](../../.gitbook/assets/ayarlarfirmaayarlari.png)
 
-## 2-
+{% hint style="info" %}
+API ve Güvenlik anahtarlarınızı bu sayfada görüntüleyebilirsiniz. Eğer görüntüleyemiyor iseniz başvuru durumunuz hakkında `destek@iyzico.com`mail adresinden bilgi alabilirsiniz.
+{% endhint %}
 
-## 3
+![API ve G&#xFC;venlik anahtarlar&#x131;](../../.gitbook/assets/apiveguvenlikanahtari.png)
 
-## 4
+Bu anahtarları kullandığınız iyzipay kütüphanesinin içerisindeki **config.php** dosyasına kopyalayınız.
 
-## 5 test your integration
+![PHP k&#xFC;t&#xFC;phanesindeki config.php dosyas&#x131;](../../.gitbook/assets/sampleconfig.png)
 
-## 6 tebrikler
+{% hint style="danger" %}
+Eğer **Sandbox** yani **test** ortamını kullanmak istiyor iseniz **sandbox-** uzantısı ile başlayan API ve Güvenlik anahtarı `https://sandbox-api.iyzipay.com` baseUrl değeri ile kullanmalısınız. 
+{% endhint %}
+
+![sandbox testleri i&#xE7;in config.php g&#xF6;r&#xFC;n&#xFC;m](../../.gitbook/assets/configphp.png)
+
+{% hint style="danger" %}
+Eğer **Canlı** yani **gerçek** ortamı kullanmak istiyor iseniz  API ve Güvenlik anahtarını `https://api.iyzipay.com/` baseUrl değeri ile kullanmalısınız.
+{% endhint %}
+
+## 2- Ödeme formunu başlatmak
+
+iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz. 
+
+{% api-method method="post" host="" path="" %}
+{% api-method-summary %}
+CreateCheckoutFormInitializeRequest
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+## 3- Ödeme formunu göstermek
+
+## 4- Ödeme sonucunu öğrenmek
+
+## 5- Entegrasyon Testleri
+
+## 6- Tebrikler !
 
 ## Sonraki adımlar
 
