@@ -10,7 +10,7 @@ iyzico prestashop modülü, yalın prestashop \(eklentisiz\) kurulumu üzerinde 
 
 Partnerlerimizden [Kahvedigital](http://kahvedigital.com/) tarafından geliştirilen ve [github.com/kahvedigital](https://github.com/kahvedigital) hesabında bulunan modüllerden, websitenizin altyapısına uygun olan modülü aşağıdaki linkler üzerinden indirebilirsiniz.
 
-​[Prestashop 1.6 altyapısı için ödeme modülü](https://github.com/kahvedigital/iyzico-prestashop/archive/master.zip) [Prestashop 1.7 altyapısı için ödeme modülü](https://github.com/kahvedigital/iyzico-prestashop1.7/archive/master.zip)​
+​[Prestashop 1.6 altyapısı için ödeme modülü](https://github.com/kahvedigital/iyzico-prestashop/archive/master.zip) [Prestashop 1.7 altyapısı için ödeme modülü](https://github.com/iyzico/iyzipay-prestashop/archive/master.zip)​
 
 **PrestaShop modülünü nasıl entegre edeceğim? \(Prestashop 1.6\)**
 
